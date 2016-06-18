@@ -42,7 +42,7 @@ Progess
 <meta property="og:image" content="https://raw.githubusercontent.com/2015winter/MarkDownImages/master/SlamImage/snapshot3.png">
 <meta property="og:image" content="https://raw.githubusercontent.com/2015winter/MarkDownImages/master/SlamImage/snapshot4.png">
 <meta property="og:image" content="http://mclab.eic.hust.edu.cn/images/slam.png">
-<meta property="og:updated_time" content="2016-06-18T15:20:15.438Z">
+<meta property="og:updated_time" content="2016-06-18T15:27:13.682Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Project">
 <meta name="twitter:description" content="3D Scene Reconstruction and Rendering 课程网址
@@ -220,13 +220,12 @@ Progess
 <li>OpenCV 2.4.11</li>
 <li>Android 6.0 Marshmallow</li>
 </ul>
-<p>Need to modify the path of OpenCV.mk in \$(LSD_SLAM_android)/app/main/jni/Android.mk line 109 and line 111 to the path of OpenCV.mk your OpenCV4Android is installed.</p>
+<p>Need to modify the path of OpenCV.mk in \$(LSD_SLAM_android)/app/main/jni/Android.mk line 109 and line 111 to the path<br> of OpenCV.mk your OpenCV4Android is installed.</p>
 <p>e.g.<br>modify<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">line 109: include E:\Libraries\OpenCV-2.4.11-android-sdk\sdk\native\jni\OpenCV.mk</span><br><span class="line">line 111: LOCAL_C_INCLUDE:=  E:\Libraries\OpenCV-2.4.11-android-sdk\sdk\native\jni\include</span><br></pre></td></tr></table></figure></p>
 <p>to the path of OpenCV.mk your OpenCV4Android is installed.<br><img src="/images/slam.png" alt="slam"></p>
 <h2 id="成果展示"><a href="#成果展示" class="headerlink" title="成果展示 "></a><font color="#4590a3" size="6px">成果展示 </font></h2><p><font color="#4590a3" size="3px">LSDPC01_3倍速</font></p>
 <p><embed src="http://player.youku.com/player.php/sid/XMTYxMjgwMDI5Ng==/v.swf" allowfullscreen="true" quality="high" width="670" height="500" align="middle" allowscriptaccess="always" type="application/x-shockwave-flash"></p>
-<p><font size="3px">   从视频中可以看出，帧率基本在25-30之间，包含的深度信息较多时，处理的就会相对慢一点。</font></p>
-<h2 id="这与PC的处理速度有关。"><a href="#这与PC的处理速度有关。" class="headerlink" title="这与PC的处理速度有关。"></a>这与PC的处理速度有关。</h2><p><font color="#4590a3" size="3px">LSDPC02_3倍速</font>  </p>
+<h2 id="从视频中可以看出，帧率基本在25-30之间，包含的深度信息较多时，处理的就会相对慢一点。"><a href="#从视频中可以看出，帧率基本在25-30之间，包含的深度信息较多时，处理的就会相对慢一点。" class="headerlink" title="   从视频中可以看出，帧率基本在25-30之间，包含的深度信息较多时，处理的就会相对慢一点。"></a><font size="3px">   从视频中可以看出，帧率基本在25-30之间，包含的深度信息较多时，处理的就会相对慢一点。</font></h2><p><font color="#4590a3" size="3px">LSDPC02_3倍速</font>  </p>
 <p><embed src="http://player.youku.com/player.php/sid/XMTYxMjgwMTA5Mg==/v.swf" allowfullscreen="true" quality="high" width="670" height="500" align="middle" allowscriptaccess="always" type="application/x-shockwave-flash"></p>
 <h2 id="相比上面的数据集，对此数据集进行处理时的深度信息更多，因此帧率比上面要低一些。"><a href="#相比上面的数据集，对此数据集进行处理时的深度信息更多，因此帧率比上面要低一些。" class="headerlink" title="相比上面的数据集，对此数据集进行处理时的深度信息更多，因此帧率比上面要低一些。"></a><font size="3px">相比上面的数据集，对此数据集进行处理时的深度信息更多，因此帧率比上面要低一些。</font></h2><p><font color="#4590a3" size="3px">LSDANDROID_FINAL_4.5倍速率</font></p>
 <p><embed src="http://player.youku.com/player.php/sid/XMTYxMjc5OTA1Ng==/v.swf" allowfullscreen="true" quality="high" width="670" height="500" align="middle" allowscriptaccess="always" type="application/x-shockwave-flash"></p>
